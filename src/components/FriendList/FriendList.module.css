@@ -1,5 +1,6 @@
 .item {
   margin: 20px 10px;
+  padding-left: 30px;
 
   width: 300px;
   display: flex;
