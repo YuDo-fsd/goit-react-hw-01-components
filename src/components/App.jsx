@@ -1,5 +1,8 @@
 import Profile from './Profile/Profile';
+import Statistics from './Statistics/Statistics';
+
 import user from '../data/user.json';
+import data from '../data/data.json';
 
 export default function App() {
   return (
@@ -13,6 +16,7 @@ export default function App() {
         views={user.stats.views}
         likes={user.stats.likes}
       />
+      <Statistics items={data} />
     </div>
   );
 }
