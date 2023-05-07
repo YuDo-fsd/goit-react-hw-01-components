@@ -1,0 +1,17 @@
+.item {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  width: 300px;
+  display: flex;
+  gap: 30px;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid lightgray;
+  border-radius: 7px;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 15px;
+  background-color: lightgray;
+}
