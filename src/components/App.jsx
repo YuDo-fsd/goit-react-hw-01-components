@@ -5,7 +5,6 @@ import TransactionsHistory from './Transactions/Transactions';
 
 import user from '../data/user.json';
 import data from '../data/data.json';
-import friends from '../data/friends.json';
 import transactions from '../data/transactions.json';
 
 export default function App() {
@@ -21,7 +20,7 @@ export default function App() {
         likes={user.stats.likes}
       />
       <Statistics items={data} />
-      <FriendList items={friends} />
+      <FriendList />
       <TransactionsHistory items={transactions} />
     </div>
   );
